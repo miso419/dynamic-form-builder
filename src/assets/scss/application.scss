@@ -1,0 +1,17 @@
+// Variables
+@import "variables"; 
+
+.react-form-builder { 
+    // #CC TESTING
+    @import  "../css/bootstrap.min"; 
+    // Component syles
+    @import "react-star-rating";
+    @import "react-select";
+    @import "react-bootstrap-slider";
+    @import "react-date-picker"; 
+    @import "react-draft";
+}
+
+// Form builder styles
+@import "form-builder";
+@import "form-builder-form";
